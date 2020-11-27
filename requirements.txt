@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 certifi==2020.11.8
 chardet==3.0.4
 fastapi==0.61.2
@@ -8,7 +7,8 @@ pydantic==1.7.2
 requests==2.25.0
 starlette==0.13.6
 urllib3==1.26.2
-=======
 requests==2.25.0
 fastapi==0.61.2
->>>>>>> ad1f99bd25c34a1d07931e4e2989147742e0219c
+uvicorn==0.12.3
+uvloop==0.14.0
+httptools==0.1.1

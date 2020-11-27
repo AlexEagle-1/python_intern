@@ -16,4 +16,6 @@ def is_alive_host(hostname):
 def formaturl(url):
     return url if re.match('(?:http|ftp|https)://', url) else 'http://{}'.format(url)
 
+print(is_alive_host('semrush.com'))
+
 

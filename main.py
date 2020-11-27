@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from .app import is_alive_host
-from .status import Status
+from app import is_alive_host
+from status import Status
 
 
 app = FastAPI()
